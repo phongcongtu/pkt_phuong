@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM ubuntu:jammy
 RUN apt update && \
         apt full-upgrade -y && \
         apt install wget -y && \
